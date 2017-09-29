@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+
+    [[UINavigationBar appearance] setBarTintColor: [UIColor colorWithRed:63/255.0 green:173/255.0 blue:233/255.0 alpha:1]];
+
+    [self automatic_loginL];
+    
     return YES;
 }
 
+- (void)automatic_loginL{
+    
+//    NSUserDefaults *PassWordDefaults = [NSUserDefaults standardUserDefaults];
+//    
+//    NSString *PassWord = [PassWordDefaults objectForKey:@"PassWord"];
+    
+    //    如果 App 状态为未运行，此函数将被调用，如果launchOptions包含UIApplicationLaunchOptionsRemoteNotificationKey表示用户点击apn 通知导致app被启动运行；如果不含有对应键值则表示 App 不是因点击apn而被启动，可能为直接点击icon被启动或其他
+//    if (userEntity.tel.length > 0 && PassWord.length > 0) { //已登录
+//
+//        [self getInMainView];
+//
+//        [self doLogin:PassWord];
+//
+//    }else{
+    
+        
+        LoginViewController *loginViewController = [[LoginViewController alloc]init];
+        self.hVC = [[UINavigationController alloc]initWithRootViewController:loginViewController];
+        
+        self.window.rootViewController = self.hVC;
+        
+        [self.window makeKeyAndVisible];
+        
+//    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

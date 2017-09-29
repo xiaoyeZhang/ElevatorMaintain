@@ -1,29 +1,31 @@
 //
-//  ViewController.m
+//  ElevatorViewController.m
 //  ElevatorMaintain
 //
 //  Created by 张晓烨 on 2017/9/29.
 //  Copyright © 2017年 zxy. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ElevatorViewController.h"
 
-@interface ViewController ()
+@interface ElevatorViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ElevatorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.navigationItem.title = @"首页";
+    
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 
 @end

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginViewController.h
 //  ElevatorMaintain
 //
 //  Created by 张晓烨 on 2017/9/29.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LoginViewController : UIViewController
 
+@property (strong, nonatomic) UITabBarController *tb;
 
 @end
-

@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2E9A4E9B1F7E6F2A00F267FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4E9A1F7E6F2A00F267FA /* AppDelegate.m */; };
-		2E9A4E9E1F7E6F2A00F267FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4E9D1F7E6F2A00F267FA /* ViewController.m */; };
 		2E9A4EA11F7E6F2A00F267FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4E9F1F7E6F2A00F267FA /* Main.storyboard */; };
 		2E9A4EA31F7E6F2A00F267FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4EA21F7E6F2A00F267FA /* Assets.xcassets */; };
 		2E9A4EA61F7E6F2A00F267FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4EA41F7E6F2A00F267FA /* LaunchScreen.storyboard */; };
 		2E9A4EA91F7E6F2A00F267FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4EA81F7E6F2A00F267FA /* main.m */; };
 		2E9A4EB31F7E6F2A00F267FA /* ElevatorMaintainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4EB21F7E6F2A00F267FA /* ElevatorMaintainTests.m */; };
 		2E9A4EBE1F7E6F2A00F267FA /* ElevatorMaintainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4EBD1F7E6F2A00F267FA /* ElevatorMaintainUITests.m */; };
+		2E9A4ED31F7E773500F267FA /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4ED11F7E773500F267FA /* LoginViewController.m */; };
+		2E9A4ED41F7E773500F267FA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4ED21F7E773500F267FA /* LoginViewController.xib */; };
+		2E9A4F1B1F7E82DC00F267FA /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F191F7E82DC00F267FA /* UserViewController.m */; };
+		2E9A4F1C1F7E82DC00F267FA /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4F1A1F7E82DC00F267FA /* UserViewController.xib */; };
+		2E9A4F201F7E82EB00F267FA /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F1E1F7E82EB00F267FA /* RecordViewController.m */; };
+		2E9A4F211F7E82EB00F267FA /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4F1F1F7E82EB00F267FA /* RecordViewController.xib */; };
+		2E9A4F251F7E82FC00F267FA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F231F7E82FC00F267FA /* NewsViewController.m */; };
+		2E9A4F261F7E82FC00F267FA /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4F241F7E82FC00F267FA /* NewsViewController.xib */; };
+		2E9A4F2A1F7E830A00F267FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F281F7E830A00F267FA /* MainViewController.m */; };
+		2E9A4F2B1F7E830A00F267FA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4F291F7E830A00F267FA /* MainViewController.xib */; };
+		2E9A4F2F1F7E831700F267FA /* ElevatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F2D1F7E831700F267FA /* ElevatorViewController.m */; };
+		2E9A4F301F7E831700F267FA /* ElevatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4F2E1F7E831700F267FA /* ElevatorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +49,6 @@
 		2E9A4E961F7E6F2900F267FA /* ElevatorMaintain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElevatorMaintain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9A4E991F7E6F2900F267FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E9A4E9A1F7E6F2A00F267FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2E9A4E9C1F7E6F2A00F267FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2E9A4E9D1F7E6F2A00F267FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2E9A4EA01F7E6F2A00F267FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E9A4EA21F7E6F2A00F267FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9A4EA51F7E6F2A00F267FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,24 @@
 		2E9A4EB91F7E6F2A00F267FA /* ElevatorMaintainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevatorMaintainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9A4EBD1F7E6F2A00F267FA /* ElevatorMaintainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElevatorMaintainUITests.m; sourceTree = "<group>"; };
 		2E9A4EBF1F7E6F2A00F267FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E9A4ED01F7E773500F267FA /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2E9A4ED11F7E773500F267FA /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2E9A4ED21F7E773500F267FA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		2E9A4F181F7E82DC00F267FA /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		2E9A4F191F7E82DC00F267FA /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		2E9A4F1A1F7E82DC00F267FA /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		2E9A4F1D1F7E82EB00F267FA /* RecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		2E9A4F1E1F7E82EB00F267FA /* RecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		2E9A4F1F1F7E82EB00F267FA /* RecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
+		2E9A4F221F7E82FC00F267FA /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		2E9A4F231F7E82FC00F267FA /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		2E9A4F241F7E82FC00F267FA /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		2E9A4F271F7E830A00F267FA /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2E9A4F281F7E830A00F267FA /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2E9A4F291F7E830A00F267FA /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2E9A4F2C1F7E831700F267FA /* ElevatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElevatorViewController.h; sourceTree = "<group>"; };
+		2E9A4F2D1F7E831700F267FA /* ElevatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElevatorViewController.m; sourceTree = "<group>"; };
+		2E9A4F2E1F7E831700F267FA /* ElevatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElevatorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,16 @@
 		2E9A4E981F7E6F2900F267FA /* ElevatorMaintain */ = {
 			isa = PBXGroup;
 			children = (
+				2E9A4F171F7E82CC00F267FA /* Elevator */,
+				2E9A4F161F7E82C600F267FA /* Main */,
+				2E9A4F151F7E82BA00F267FA /* News */,
+				2E9A4F131F7E82BA00F267FA /* Record */,
+				2E9A4F141F7E82BA00F267FA /* User */,
+				2E9A4ED01F7E773500F267FA /* LoginViewController.h */,
+				2E9A4ED11F7E773500F267FA /* LoginViewController.m */,
+				2E9A4ED21F7E773500F267FA /* LoginViewController.xib */,
 				2E9A4E991F7E6F2900F267FA /* AppDelegate.h */,
 				2E9A4E9A1F7E6F2A00F267FA /* AppDelegate.m */,
-				2E9A4E9C1F7E6F2A00F267FA /* ViewController.h */,
-				2E9A4E9D1F7E6F2A00F267FA /* ViewController.m */,
 				2E9A4E9F1F7E6F2A00F267FA /* Main.storyboard */,
 				2E9A4EA21F7E6F2A00F267FA /* Assets.xcassets */,
 				2E9A4EA41F7E6F2A00F267FA /* LaunchScreen.storyboard */,
@@ -130,6 +163,56 @@
 				2E9A4EBF1F7E6F2A00F267FA /* Info.plist */,
 			);
 			path = ElevatorMaintainUITests;
+			sourceTree = "<group>";
+		};
+		2E9A4F131F7E82BA00F267FA /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				2E9A4F1D1F7E82EB00F267FA /* RecordViewController.h */,
+				2E9A4F1E1F7E82EB00F267FA /* RecordViewController.m */,
+				2E9A4F1F1F7E82EB00F267FA /* RecordViewController.xib */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		2E9A4F141F7E82BA00F267FA /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2E9A4F181F7E82DC00F267FA /* UserViewController.h */,
+				2E9A4F191F7E82DC00F267FA /* UserViewController.m */,
+				2E9A4F1A1F7E82DC00F267FA /* UserViewController.xib */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2E9A4F151F7E82BA00F267FA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2E9A4F221F7E82FC00F267FA /* NewsViewController.h */,
+				2E9A4F231F7E82FC00F267FA /* NewsViewController.m */,
+				2E9A4F241F7E82FC00F267FA /* NewsViewController.xib */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		2E9A4F161F7E82C600F267FA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E9A4F271F7E830A00F267FA /* MainViewController.h */,
+				2E9A4F281F7E830A00F267FA /* MainViewController.m */,
+				2E9A4F291F7E830A00F267FA /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E9A4F171F7E82CC00F267FA /* Elevator */ = {
+			isa = PBXGroup;
+			children = (
+				2E9A4F2C1F7E831700F267FA /* ElevatorViewController.h */,
+				2E9A4F2D1F7E831700F267FA /* ElevatorViewController.m */,
+				2E9A4F2E1F7E831700F267FA /* ElevatorViewController.xib */,
+			);
+			path = Elevator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +321,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9A4ED41F7E773500F267FA /* LoginViewController.xib in Resources */,
+				2E9A4F1C1F7E82DC00F267FA /* UserViewController.xib in Resources */,
 				2E9A4EA61F7E6F2A00F267FA /* LaunchScreen.storyboard in Resources */,
+				2E9A4F2B1F7E830A00F267FA /* MainViewController.xib in Resources */,
+				2E9A4F301F7E831700F267FA /* ElevatorViewController.xib in Resources */,
 				2E9A4EA31F7E6F2A00F267FA /* Assets.xcassets in Resources */,
 				2E9A4EA11F7E6F2A00F267FA /* Main.storyboard in Resources */,
+				2E9A4F211F7E82EB00F267FA /* RecordViewController.xib in Resources */,
+				2E9A4F261F7E82FC00F267FA /* NewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9A4E9E1F7E6F2A00F267FA /* ViewController.m in Sources */,
 				2E9A4EA91F7E6F2A00F267FA /* main.m in Sources */,
+				2E9A4F1B1F7E82DC00F267FA /* UserViewController.m in Sources */,
 				2E9A4E9B1F7E6F2A00F267FA /* AppDelegate.m in Sources */,
+				2E9A4F251F7E82FC00F267FA /* NewsViewController.m in Sources */,
+				2E9A4F2F1F7E831700F267FA /* ElevatorViewController.m in Sources */,
+				2E9A4F2A1F7E830A00F267FA /* MainViewController.m in Sources */,
+				2E9A4ED31F7E773500F267FA /* LoginViewController.m in Sources */,
+				2E9A4F201F7E82EB00F267FA /* RecordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
