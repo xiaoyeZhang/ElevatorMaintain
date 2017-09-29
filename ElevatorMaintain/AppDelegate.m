@@ -21,8 +21,8 @@
     
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
 
-    [[UINavigationBar appearance] setBarTintColor: [UIColor colorWithRed:63/255.0 green:173/255.0 blue:233/255.0 alpha:1]];
-
+    [[UINavigationBar appearance] setBarTintColor:RGBCOLOR(63, 173, 233, 1)];
+    
     [self automatic_loginL];
     
     return YES;
