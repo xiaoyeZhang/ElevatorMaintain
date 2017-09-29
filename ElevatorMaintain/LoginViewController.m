@@ -12,13 +12,16 @@
 #import "NewsViewController.h"
 #import "RecordViewController.h"
 #import "UserViewController.h"
-@interface LoginViewController ()<UITabBarControllerDelegate>
+#import "UserEntity.h"
+
+@interface LoginViewController ()<UITabBarControllerDelegate,MBProgressHUDDelegate>
 {
     MainViewController *Main;
     ElevatorViewController *Elevator;
     NewsViewController *News;
     RecordViewController *Record;
     UserViewController *User;
+    MBProgressHUD *HUD;
 }
 @end
 
@@ -90,8 +93,28 @@
 
 - (IBAction)doLogin:(UIButton *)sender {
     
+    HUD = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    HUD.delegate = self;
+    HUD.label.text = @"登录中...";
     
-    [self getInMainView];
+    CommonService *service = [[CommonService alloc] init];
+    NSDictionary *param = [NSDictionary dictionaryWithObjectsAndKeys:
+                           @"13205910027",@"mobile",
+                           @"E10ADC3949BA59ABBE56E057F20F883E",@"password",
+                           nil
+                           ];
+
+    [service loginWithPassword:param Successed:^(UserEntity *entity) {
+        
+//        NSString *state = [entity valueForKeyPath:@"jsonInfo"];
+        
+        [self getInMainView];
+
+        
+    } Failed:^(int errorCode, NSString *message) {
+        
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

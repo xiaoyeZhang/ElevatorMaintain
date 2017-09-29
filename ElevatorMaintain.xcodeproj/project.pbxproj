@@ -26,6 +26,8 @@
 		2E9A4F711F7E9C9D00F267FA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4F6F1F7E9C9D00F267FA /* MainViewController.xib */; };
 		2E9A4F751F7E9CAC00F267FA /* ElevatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F731F7E9CAC00F267FA /* ElevatorViewController.m */; };
 		2E9A4F761F7E9CAC00F267FA /* ElevatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9A4F741F7E9CAC00F267FA /* ElevatorViewController.xib */; };
+		2E9A4F791F7E9DDF00F267FA /* CommonService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F781F7E9DDF00F267FA /* CommonService.m */; };
+		2E9A4F7C1F7E9F1000F267FA /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A4F7B1F7E9F1000F267FA /* UserEntity.m */; };
 		319456FD1509FBE7A427013D /* libPods-ElevatorMaintain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8EE12660C5D457FD00CC44 /* libPods-ElevatorMaintain.a */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,10 @@
 		2E9A4F721F7E9CAC00F267FA /* ElevatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElevatorViewController.h; sourceTree = "<group>"; };
 		2E9A4F731F7E9CAC00F267FA /* ElevatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElevatorViewController.m; sourceTree = "<group>"; };
 		2E9A4F741F7E9CAC00F267FA /* ElevatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ElevatorViewController.xib; sourceTree = "<group>"; };
+		2E9A4F771F7E9DDF00F267FA /* CommonService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonService.h; sourceTree = "<group>"; };
+		2E9A4F781F7E9DDF00F267FA /* CommonService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonService.m; sourceTree = "<group>"; };
+		2E9A4F7A1F7E9F1000F267FA /* UserEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
+		2E9A4F7B1F7E9F1000F267FA /* UserEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
 		7AF73E2A080EFEDBFEC7F3FC /* Pods-ElevatorMaintain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevatorMaintain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElevatorMaintain/Pods-ElevatorMaintain.debug.xcconfig"; sourceTree = "<group>"; };
 		AB8EE12660C5D457FD00CC44 /* libPods-ElevatorMaintain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElevatorMaintain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0B2F0016D91E2262F322B8 /* Pods-ElevatorMaintain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElevatorMaintain.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElevatorMaintain/Pods-ElevatorMaintain.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +189,8 @@
 		2E9A4F331F7E99DB00F267FA /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2E9A4F771F7E9DDF00F267FA /* CommonService.h */,
+				2E9A4F781F7E9DDF00F267FA /* CommonService.m */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -190,6 +198,8 @@
 		2E9A4F341F7E99DB00F267FA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E9A4F7A1F7E9F1000F267FA /* UserEntity.h */,
+				2E9A4F7B1F7E9F1000F267FA /* UserEntity.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -467,8 +477,10 @@
 				2E9A4F611F7E9C3700F267FA /* UserViewController.m in Sources */,
 				2E9A4E9B1F7E6F2A00F267FA /* AppDelegate.m in Sources */,
 				2E9A4F6B1F7E9C5000F267FA /* NewsViewController.m in Sources */,
+				2E9A4F791F7E9DDF00F267FA /* CommonService.m in Sources */,
 				2E9A4F751F7E9CAC00F267FA /* ElevatorViewController.m in Sources */,
 				2E9A4F701F7E9C9D00F267FA /* MainViewController.m in Sources */,
+				2E9A4F7C1F7E9F1000F267FA /* UserEntity.m in Sources */,
 				2E9A4ED31F7E773500F267FA /* LoginViewController.m in Sources */,
 				2E9A4F661F7E9C4500F267FA /* RecordViewController.m in Sources */,
 			);
